@@ -1,0 +1,28 @@
+{
+  "name": "grozny-app",
+  "version": "1.0.0",
+  "packageManager": "npm@10.8.1",
+  "workspaces": [
+    "apps/*"
+  ],
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "scripts": {
+    "dev:frontend": "turbo run dev --filter=frontend",
+    "build:frontend": "turbo run build --filter=frontend",
+    "dev:backend": "turbo run dev --filter=backend",
+    "build:backend": "turbo run build --filter=backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^15.3.0",
+    "prettier": "3.4.2",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}

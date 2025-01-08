@@ -1,0 +1,40 @@
+.apartmentsList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+}
+
+.apartment {
+    display: flex;
+    padding: 24px;
+    border-bottom: 1px solid #00000010;
+}
+
+.apartmentsList li:last-child .apartment {
+    border-bottom: 1px solid #00000000;
+}
+
+.apartment:hover {
+    border-radius: 8px;
+    border-bottom: 1px solid #00000000;
+    box-shadow: 0px 0px 10px #00000020;
+}
+
+.apartmentImg {
+    width: 100%;
+}
+
+.apartmentTitle {
+    color: #0661ec;
+}
+
+.apartmentTitle:hover {
+    color: #0447ab;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: end;
+    padding: 12px 0;
+}

@@ -1,0 +1,25 @@
+.footer {
+    padding: 24px;
+    color: rgba(0, 0, 0, 0.60);
+    border-top: 1px solid #00000020;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.footer ul {
+    display: flex;
+    gap: 20px;
+}
+
+.footer ul li {
+    list-style: none;
+}
+
+.footer ul li a {
+    color: rgba(0, 0, 0, 0.60);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer ul li a:hover {
+    color: rgba(0, 0, 0, 0.80);
+}

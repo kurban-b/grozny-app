@@ -1,0 +1,31 @@
+.imgBlock {
+    position: relative;
+}
+
+.imgBlockLeft {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.imgBlockRight {
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.imgBlockRight:hover, .imgBlockLeft:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
