@@ -1,11 +1,9 @@
 import styles from "./page.module.css";
-import Header from "@frontend/src/components/Header";
 import React from "react";
-import Footer from "@frontend/src/components/Footer";
-import IndexHero from "@frontend/src/app/components/IndexHero";
-import IndexApartments from "@frontend/src/app/components/IndexApartments";
-import IndexBuildings from "@frontend/src/app/components/IndexBuildings";
-import IndexDevelopers from "@frontend/src/app/components/IndexDevelopers";
+import IndexHero from "./components/IndexHero";
+import IndexApartments from "./components/IndexApartments";
+import IndexBuildings from "./components/IndexBuildings";
+import IndexDevelopers from "./components/IndexDevelopers";
 
 export default function Home() {
     return (

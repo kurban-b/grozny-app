@@ -4,9 +4,8 @@ import styles from './styles.module.css'
 import data from '../../apartments.json'
 import {Divider, Grid, ToggleButton, ToggleButtonGroup, Typography} from "@mui/material";
 import {FC, useCallback, useState} from "react";
-import Image from 'next/image';
 import Link from 'next/link';
-import { spaceDigits } from '@frontend/src/utils/numbers/spaceDigits';
+import { spaceDigits } from '../../utils/numbers/spaceDigits';
 import ListIcon from '@mui/icons-material/List';
 import ViewColumnIcon from '@mui/icons-material/ViewColumn';
 

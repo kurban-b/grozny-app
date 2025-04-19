@@ -4,14 +4,7 @@
     "module": "esnext",
     "strict": true,
     "baseUrl": "../../",
-    "paths": {
-      "@frontend/*": [
-        "apps/frontend/*"
-      ],
-      "@backend/*": [
-        "apps/backend/*"
-      ]
-    },
+    "paths": {},
     "jsx": "preserve",
     "moduleResolution": "node",
     "lib": [

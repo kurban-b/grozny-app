@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import React from "react";
 import { Box, Checkbox, Container, FormControlLabel, FormGroup, Grid, Slider, TextField, Typography } from "@mui/material";
-import ApartmentsList from "@frontend/src/components/ApartmentsList";
+import ApartmentsList from "../../components/ApartmentsList";
 import appartnetsData from '../../apartments.json'
 
 export default function Apartments() {

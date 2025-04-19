@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from "@frontend/src/app/components/IndexApartments/page.module.css";
-import DevelopersList from "@frontend/src/components/DevelopersList";
+import styles from "./page.module.css";
+import DevelopersList from "../../../components/DevelopersList";
 import data from '../../../developers.json'
 import {Container, Box, Button, Typography} from '@mui/material';
 

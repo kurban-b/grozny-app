@@ -1,16 +1,16 @@
 import styles from "./page.module.css";
 import React, { useCallback, useMemo } from "react";
 import { Box, Container, Grid, ImageList, ImageListItem, Typography } from "@mui/material";
-import ApartmentsList from "@frontend/src/components/ApartmentsList";
+import ApartmentsList from "../../../components/ApartmentsList";
 import appartnetsData from '../../../apartments.json'
-import { spaceDigits } from "@frontend/src/utils/numbers/spaceDigits";
+import { spaceDigits } from "../../../utils/numbers/spaceDigits";
 import SquareFootIcon from '@mui/icons-material/SquareFoot';
 import ApartmentIcon from '@mui/icons-material/Apartment';
 import MeetingRoomIcon from '@mui/icons-material/MeetingRoom';
 import EventIcon from '@mui/icons-material/Event';
 import ImgList from "./ImgList";
 import { YMaps, Map, ObjectManager, ZoomControl, Placemark } from "@pbe/react-yandex-maps";
-import MapBlock from "@frontend/src/components/MapBlock";
+import MapBlock from "../../../components/MapBlock";
 
 interface ILocation {
     coordinates: {

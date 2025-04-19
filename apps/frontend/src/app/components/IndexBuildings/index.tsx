@@ -1,6 +1,6 @@
 import React from 'react'
-import styles from "@frontend/src/app/components/IndexApartments/page.module.css";
-import BuildingsList from "@frontend/src/components/BuildingsList";
+import styles from "./page.module.css";
+import BuildingsList from "../../../components/BuildingsList";
 import data from '../../../buildings.json'
 import {Container, Box, Button, Typography} from '@mui/material';
 
